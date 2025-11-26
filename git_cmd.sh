@@ -17,3 +17,8 @@ echo "git commit -m \"any comment\" ;; Files are move to repository before PUSH"
 echo "git branch ;; Check branch name before PUSH"
 echo "git remote -v ;; Check origin name before PUSH"
 echo "git push origin main"
+
+
+echo "git log main..origin/main --oneline ;; Check history of log"
+echo "git diff main origin/main ;; Comparison of two files" 
+
